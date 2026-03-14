@@ -62,6 +62,27 @@ TDDの基本原則は次の通りである。
 
 TDDの有名なマントラは「Red → Green → Refactor」である。
 
+```mermaid
+flowchart LR
+    Red["Red<br>(Write a failing test)"]
+    Green["Green<br>(Make the test pass)"]
+    Refactor["Refactor<br>(Improve code)"]
+
+    Red --> Green
+    Green --> Refactor
+    Refactor --> Red
+
+    %% Define styles (vivid, high-contrast colors, borders, and white text)
+    classDef rStyle fill:#e74c3c,stroke:#c0392b,color:#fff,stroke-width:3px
+    classDef gStyle fill:#2ecc71,stroke:#27ae60,color:#fff,stroke-width:3px
+    classDef bStyle fill:#3498db,stroke:#2980b9,color:#fff,stroke-width:3px
+
+    %% Apply styles (safely on separate lines)
+    class Red rStyle
+    class Green gStyle
+    class Refactor bStyle
+```
+
 1. Red : テストを書く（失敗する）
 2. Green : 最小の実装で成功させる
 3. Refactor : 振る舞いを変えずにコードを改善する

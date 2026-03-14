@@ -26,3 +26,13 @@ Windows
 set PYTHONPATH=src
 pytest -v -s
 ```
+
+```bash
+PYTHONPATH=src pytest tests/test_my_module.py -v -s
+PYTHONPATH=src pytest tests/test_my_module.py::test_add -v -s
+```
+
+```bash
+pytest tests/tdd_gcd_tutorial/my_module/test_my_module.py -v -s
+pytest tests/tdd_gcd_tutorial/my_module/ -v -s
+```
