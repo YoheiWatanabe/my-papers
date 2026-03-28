@@ -1289,4 +1289,11 @@ $$
 
 - 2026/03/22 (Sun)
 - 内容を色々変えた。
-- [この記事のリンク](https://github.com/YoheiWatanabe/my-papers/blob/main/philosophy/test-centrism/01/paper/jp/paper.md)
+- ~~[この記事のリンク](https://github.com/YoheiWatanabe/my-papers/blob/main/philosophy/test-centrism/01/paper/jp/paper.md)~~
+
+### 3
+
+- 2026/03/29 (Sun)
+- フォルダ名の修正。`jp`から`ja`に変更した。
+- それに伴い、記事のリンクの変更および古いリンクの削除
+- [この記事のリンク](https://github.com/YoheiWatanabe/my-papers/blob/main/philosophy/test-centrism/01/paper/ja/paper.md)
